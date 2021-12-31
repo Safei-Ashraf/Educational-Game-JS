@@ -1,0 +1,137 @@
+1- add an h2 "What's in the basket, Choose and Write
+2- add next to it 2 buttons for "dummy image" and one for help
+3-dummy page button should have and icon for image 
+4-help button should have a "?" in it
+
+5-draw a large box below that would act as a container
+6-80% of that box would be in color rgb(15,160,197)
+7-the bot 20% would be in color rgb(222,236,246)
+8-add buttons in that 20% section, one to show answer and one to reset
+9-reset button should have a reset icon 
+10-should answer point should have an eye icon.
+11-add a box that is slightly going out from top and bottom and have some xtra space from left and right
+12-add orange border to that box
+13-add border radius of 12px to that box
+
+14-divide that large box into 3 rows
+14-top row with 8 boxes of probable answers
+15-on click answer should change from "white bg, blue order" into blue bg and writing color to be white"
+16-mid row should have an image
+17-bottom row for answers.
+18-add logic for answes, on click to reply back if answer is correct or wrong.
+19-if wrong, display red "x" mark, display answer for a sec then remove it.
+20-if correct display answer + correct mark next to it.
+21-optional add sound effects 
+22-add pre-loader
+23-make sure the page is scalable, maintain same shape everywhere.
+
+
+
+/********************Media Queries**************/
+/* @media only screen and (min-width: 350px) {
+    .top-row{
+        padding-bottom: 50px;
+    }
+    .side-heading{
+        font-size:4vw;
+    }
+    .option{
+        height: 20px;
+    }
+    .options-holder{
+        margin-left: 11vw;
+        height: 1vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 576 and up) */
+/* @media only screen and (min-width: 576px) {
+    .top-row{
+        padding-bottom: 56px;
+    }
+    .side-heading{
+        font-size: 3vw;
+    }
+    .options-holder{
+        margin-left: 12vw;
+        font-size: 2rem;
+    }
+    .option{
+        font-size: 2.5vw;
+    }
+    .middle-row{
+        height: 44vw;
+    }
+    #ex-img {
+        display: block;
+        max-width: 100%;
+        height: 20vw;
+    }
+    .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+      }
+       */
+      /* Top left text */
+      .top-left {
+        position: absolute;
+        top: 42%;
+        left: 16px;
+      }
+      
+      /* Top right text */
+      .top-right {
+        position: absolute;
+        top: 42%;
+        right: 16px;
+      }
+      
+      /* Bottom right text */
+      .bottom-right {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+      }
+      
+      /* Centered text */
+      .centered {
+        position: absolute;
+        top: 72%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .top-row{
+        padding-bottom: 60px;
+    }
+    .options-holder{
+        margin-left: 12vw;
+    }
+    #ex-img {
+        display: block;
+        max-width: 100%;
+        height: 20vw;
+    }
+}
+    
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        overflow: hidden;
+    }
+    .top-row{
+        padding-bottom: 55px;
+    }
+    #ex-img{
+        height: 22vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+} */
